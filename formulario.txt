@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>Formulario de ejemplo</TITLE>
+</HEAD>
+<BODY>
+<FORM action="tratamiento datos.php" method="post">
+<HR>
+<H1> FORMULARIO DE DATOS PERSONALES </H1>
+<HR>
+Nombre: <INPUT type=text name=nombre size=30> <br>
+Primer apellido <INPUT type=text name=apellido1 size=30>
+<br>
+Segundo apellido <INPUT type=text name=apellido2 size=30>
+<br>
+
+<p>
+
+Estudios : <BR>
+<INFUT type=checkbox name=estudios[] value="primaria" >
+
+<INFUT type=checkbox name=estudios[] value="primaria" >
+Educacion primaria
+<INFUT type=checkbox name=estudios[] value="secundaria" >
+Educacion secundaria
+<INFUT type=checkbox name=estudios[] value="bachillerato" >
+Bachillerato
+<INFUT type=checkbox name=estudios[] value="Estudios universitarios" >
+Estudios universitarios.
+
+<P>
+Tu Edad: <BR>
+<INFUT type=radio name=edad[] value="menor" > Menor de edad
+<INFUT type=radio name=edad[] value="mayor" > mayor de edad
+
+<HR>
+
+<p>
+<INPUT type=subnit valeu="Enviar">
+<INPUT type=reset valeu="Borrar">
+</FORM>
+
+</BODY>
+</HTML>
