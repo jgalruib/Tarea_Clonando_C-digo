@@ -12,6 +12,7 @@ Algoritmo Promedio
 	FinPara	
 	prom<-acum/n
 	Escribir "El promedio es: ",prom
+	Escribir "hasta pronto"
 	FinSi
 	
 	
